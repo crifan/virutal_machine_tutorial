@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE book
+[
+
+<!ENTITY cur_book_name      "virutal_machine_tutorial" >
+<!ENTITY publish_date       "2013-01-30" >
+<!ENTITY release_version    "1.0" >
+
+<!ENTITY copyrith_year "2013" >
+<!ENTITY entity_common_multi_format     SYSTEM  "../../entity_common_multi_format.xml">
+<!ENTITY entity_common_publish_info     SYSTEM  "../../entity_common_publish_info.xml">
+]>
+
+<book version="5.0"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:lang="zh_CN">
+
+<info>
+    <title>虚拟机教程</title>
+    <subtitle></subtitle>
+    <keywordset>
+        <keyword>虚拟机</keyword>
+        <keyword>教程</keyword>
+    </keywordset>
+
+    <abstract>
+        <para>本文主要介绍虚拟机方面的知识，主要包括，什么是虚拟机，目前主流包含哪些虚拟机软件，以及虚拟机领域中的基本概念，比如虚拟机和真实主机之间的关系等内容</para>
+        &entity_common_multi_format;
+    </abstract>
+
+    <revhistory>
+        <revision>
+            <revnumber>&release_version;</revnumber>
+            <date>&publish_date;</date>
+            <revremark>
+                <orderedlist>
+                    <listitem>把之前教程的地址整理过来</listitem>
+                </orderedlist>
+            </revremark>
+            <authorinitials>crl</authorinitials>
+        </revision>
+    </revhistory>
+
+    &entity_common_publish_info;
+</info>
+
+<xi:include href="preface.xml" />
+<xi:include href="ch01_vm_intro.xml" />
+<xi:include href="ch02_vm_common_soft.xml" />
+<xi:include href="ch03_vm_bacis_knowledge.xml" />
+<xi:include href="reference.xml" />
+
+</book>

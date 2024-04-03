@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<bibliography
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="reference">
+
+<bibliomixed xml:id="ref.what_is_vm">
+  <bibliosource><link xl:href="http://www.crifan.com/summary_what_is_virutual_machine">【整理】什么是虚拟机</link></bibliosource>
+  <author>Crifan Li</author>
+</bibliomixed>
+
+</bibliography>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter xml:id="vm_basic_knowledge" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xl="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+         xmlns:ns4="http://www.w3.org/1999/xhtml"
+         xmlns:ns3="http://www.w3.org/2000/svg"
+         xmlns:ns="http://docbook.org/ns/docbook">
+<title>虚拟机领域内的基本概念和基础知识</title>
+
+<para></para>
+
+
+<sect1 xml:id="vm_vs_real_pc"><title>虚拟机和真实主机之间的关系</title>
+    <tip xml:id="tip.vm_vs_real_pc"><title>相关旧帖</title>
+        <para><link xl:href="http://www.crifan.com/tutorial_the_relation_between_host_and_guest_virtual_machine">【教程】详细解释主机和虚拟机之间的关系以及常见问题的解答</link></para>
+        <para><link xl:href="http://www.crifan.com/summary_the_boot_sequence_of_normal_pc_and_virtual_machine">【整理】操作系统（和虚拟机）的启动过程和启动顺序</link></para>
+    <para><link xl:href="http://www.crifan.com/operating_system_difference_between_hos_and_virtual_machine">【整理】宿主机中的操作系统和虚拟机中的操作系统是否一样</link></para>
+    </tip>
+
+    <para></para>
+    <para></para>
+    <para></para>
+    <para></para>
+    <para></para>
+    <para></para>
+    <para></para>
+</sect1>
+
+<sect1 xml:id="vm_dev_drivers"><title>虚拟机中的设备驱动</title>
+    <tip xml:id="tip.vm_dev_drivers"><title>相关旧帖</title>
+        <para><link xl:href="http://www.crifan.com/virtual_machine_video_card_and_its_driver">【整理】虚拟机系统中的显卡和显卡驱动</link></para>
+    </tip>
+
+    <para>虚拟机中的设备的驱动，和你当前真实主机内的设备和对应的设备的驱动，基本上没有关系。</para>
+</sect1>
+
+<sect1 xml:id="vm_boot_config"><title>虚拟机中的启动相关的设置</title>
+    <tip xml:id="tip.vm_boot_config"><title>相关旧帖</title>
+        <para><link xl:href="http://www.crifan.com/virtual_machine_efi_uefi_unified_extensible_firmware_interface">【整理】（VirtualBox中的虚拟机的配置中的）EFI(Extensible Firmware Interface),UEFI(Unified EFI)</link></para>
+    </tip>
+
+    <para>不要随便使用EFI（UEFI），否则很可能会导致虚拟机无法启动。</para>
+</sect1>
+
+</chapter>
